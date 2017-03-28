@@ -101,3 +101,19 @@ curl \
 ```
 
 Alternatively, you can use a GUI like [postman](https://www.getpostman.com/).
+
+#### Step 9: Open Exercises
+
+### Scaling your docker container deployment
+
+The environment used in this meetup by default enables Docker Swarm in a single-node cluster. You are able to use this feature to scale up multiple containers in your environment.
+
+Using the [Docker Swarm Mode](https://docs.docker.com/engine/swarm/) documentation try to achieve the following:
+
+1. Change your single-container deployment into a multi-container service, see [Deploying a Docker Service](https://docs.docker.com/engine/swarm/swarm-tutorial/deploy-service/)
+2. Scale your service, see [Scaling the service](https://docs.docker.com/engine/swarm/swarm-tutorial/scale-service/)
+
+### Implement your own model
+
+Think of a use case relevant for your business domain. Think of some simple business rules that resemble a proof of concept implementation. Implement these business rules in a second class that implements `Model`. Follow steps 2 to 8 using a unique name for your model.
+
